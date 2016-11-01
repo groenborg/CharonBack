@@ -1,5 +1,5 @@
 FROM openjdk:8
-MAINTAINER groenborg27@gmail.com
+MAINTAINER groenborg27
 
 RUN apt-get update
 RUN apt-get install -y wget
