@@ -21,4 +21,5 @@ WORKDIR $INSTALL_PATH
 
 ADD . .
 
-CMD ["gradle","test"]
+ENTRYPOINT ["/bin/bash","-c"]
+CMD ["gradle test"]
