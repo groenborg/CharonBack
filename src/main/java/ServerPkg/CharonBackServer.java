@@ -17,5 +17,7 @@ public class CharonBackServer {
         server.createContext("/test", new MyHandler());
         server.setExecutor(null);
         server.start();
+
+        System.out.println("Server started on port: " + "8000");
     }
 }
