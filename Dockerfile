@@ -14,6 +14,8 @@ RUN rm gradle-3.1-bin.zip
 ENV INSTALL_PATH /home/app
 ENV GRADLE_HOME /opt/gradle-3.1
 ENV PATH $PATH:$GRADLE_HOME/bin
+ENV BE_SERVER_PORT 8000
+
 
 RUN apt-get clean
 
@@ -21,7 +23,7 @@ WORKDIR $INSTALL_PATH
 
 ADD . .
 
-EXPOSE 8000
+EXPOSE $BE_SERVER_PORT
 
 ENTRYPOINT ["/bin/bash","-c"]
 CMD ["gradle run"]
