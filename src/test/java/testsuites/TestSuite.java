@@ -13,7 +13,7 @@ import services.ContractService;
  * Created by simon on 31/10/2016.
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({contracttest.UserContractTest.class})
+@Suite.SuiteClasses({})
 public class TestSuite {
 
     @BeforeClass

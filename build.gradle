@@ -2,6 +2,10 @@ group 'ferry-case'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "ServerPkg.CharonBackServer"
+
 
 sourceCompatibility = 1.7
 
