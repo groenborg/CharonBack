@@ -16,7 +16,7 @@ public class CharonBackServer {
 
     /***
      * Starts Server on port 8000
-     * Create new routes/handlers withe server.createContext
+     * Create new routes/handlers with server.createContext
      * @param args
      * @throws Exception
      */
