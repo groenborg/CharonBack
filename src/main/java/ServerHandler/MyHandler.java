@@ -20,7 +20,7 @@ public class MyHandler implements HttpHandler {
         String response = "";
 
         if (t.getRequestMethod().equalsIgnoreCase("GET")){
-            response = "GET Request Recieved";
+            response = "GET Request Recieved this is serious business";
 
         }else if (t.getRequestMethod().equalsIgnoreCase("POST")){
             response = "POST Request Recieved \n";
