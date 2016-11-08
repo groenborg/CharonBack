@@ -34,5 +34,4 @@ public class CharonBackServer {
 
         System.out.println("Server started on port: " + port);
     }
-
 }
