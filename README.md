@@ -15,3 +15,6 @@ or just add the environment variable to your intellij launch job
 
 ##Docker containers
 
+###Building the image
+
+to build the image run the command `docker build -t gradle-image .` 
