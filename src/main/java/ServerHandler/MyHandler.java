@@ -20,7 +20,7 @@ public class MyHandler implements HttpHandler {
         String response = "";
 
         if (t.getRequestMethod().equalsIgnoreCase("GET")){
-            response = "GET Request Recieved this is serious business";
+            response = "Webservice is running";
 
         }else if (t.getRequestMethod().equalsIgnoreCase("POST")){
             response = "POST Request Recieved \n";
