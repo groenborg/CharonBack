@@ -73,10 +73,5 @@ public class ViewAllDeparturesHandler implements HttpHandler {
             os.write(result.getBytes());
             os.close();
         }
-
-
-
-
     }
-
 }
