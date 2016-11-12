@@ -1,6 +1,6 @@
 package ServerPkg;
 
-import ServerHandler.MyHandler;
+import ServerHandler.*;
 import com.sun.net.httpserver.HttpServer;
 import java.net.InetSocketAddress;
 
@@ -29,6 +29,7 @@ public class CharonBackServer {
     public void startServer() throws Exception {
         server = HttpServer.create(new InetSocketAddress(port), 0);
         server.createContext("/test", new MyHandler());
+        server.createContext("/api/viewAllDepartures", new ViewAllDeparturesHandler());
         server.setExecutor(null);
         server.start();
 
