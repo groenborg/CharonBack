@@ -1,9 +1,9 @@
-##Ferry Backend mock
+## Ferry Backend mock
 
 [![Stories in Ready](https://badge.waffle.io/groenborg/CharonBack.svg?label=ready&title=Ready)](http://waffle.io/groenborg/CharonBack)
 
 
-##Setup
+## Setup
 
 When launching the application in your local development environment, your first need to set an
 environment variable called `BE_SERVER_PORT` which you assign your port with eg. 8000
@@ -13,8 +13,8 @@ or just add the environment variable to your intellij launch job
 
 
 
-##Docker containers
+##D ocker containers
 
-###Building the image
+### Building the image
 
 to build the image run the command `docker build -t gradle-image .` 
