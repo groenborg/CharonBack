@@ -13,7 +13,7 @@ or just add the environment variable to your intellij launch job
 
 
 
-##D ocker containers
+## Docker containers
 
 ### Building the image
 
